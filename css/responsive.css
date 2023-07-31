@@ -25,6 +25,51 @@
         width: 300px;
     }
 
+    .historia {
+        padding: 16px;
+    }
+
+
+    .historia .col-2 {
+        width: 100%;
+    }
+
+    .servicos .col-3 {
+        width: 100%;
+        margin: 25px;
+    }
+
+    .corte img,
+    .barba img,
+    .quimica img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contato > .col-2{
+        width: 100%;
+        margin: auto;
+    }
+
+    .contato{
+     display: block;
+     text-align: center;
+    }
+
+    .rede-sociais{
+        justify-content: center;
+    }
+    
+    .funcionamento{
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .endereco{
+        justify-content: center;
+        padding: 25px;
+    }
+
 }
 
 

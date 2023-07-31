@@ -193,6 +193,11 @@ footer {
     font-size: 2rem
 }
 
+.galeria img{
+    width: 600px;
+    height: 600px;
+}
+
 
 .contato {
     display: flex;
@@ -206,6 +211,7 @@ footer {
 
 .rede-sociais{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
@@ -236,22 +242,6 @@ footer {
 .quimica img{
     width: 60px;
     height: 60px;
-}
-
-
-
-
-
-.fakeIcon {
- 
-    background: rgb(55, 98, 236);
-}
-
-.fakePicture {
-    background-color: pink;
-    height: 600px;
-    width: 600px;
-    margin: auto;
 }
 
 
