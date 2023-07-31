@@ -4,13 +4,22 @@
     font-size: 1.1rem;
 }
 
+h1{
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
     margin: auto;
-    background-color: rgb(230, 230, 226);
+}
 
+footer {
+    background-color: black;
+    margin-top: 100px;
+    color: white;
 }
 
 /* Menu */
@@ -65,7 +74,7 @@
     display: none;
     width: 60px;
     height: 40px;
-    position: fixed;
+    position: absolute;
     right: 0;
 }
 
@@ -78,7 +87,7 @@
     position: absolute;
     top: 20px;
     right: 20px;
-   
+
 }
 
 .menu-icon:before,
@@ -117,10 +126,151 @@
     top: 22%;
 }
 
+.historia {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.historia h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.historia .col-2 {
+    margin: 5px auto;
+    text-align: left;/
+}
+
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 16px;
+    background-color: rgb(243, 242, 242);
+    min-height: 400px;
+
+}
+
+
+
+
+.servicos .col-3 {
+    margin: auto;
+    background-color: white;
+}
+
+
+.corte,
+.barba,
+.quimica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.corte ul,
+.barba ul,
+.quimica ul {
+    align-self: flex-start;
+}
+
+.corte {}
+
+.barba {}
+
+.quimica {}
+
+
+.galeria {
+    margin-top: 40px;
+}
+
+.galeria h1{
+    text-align: center;
+    font-size: 2rem
+}
+
+
+.contato {
+    display: flex;
+}
+
+.contato .col-2{
+    margin: 15px auto;
+}
+
+
+
+.rede-sociais{
+    display: flex;
+    margin-top: 20px;
+}
+
+.rede-sociais a img{
+    margin-right: 20px;
+    width: 60px;
+}
+
+.funcionamento{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.funcionamento img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+
+.endereco {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.corte img,
+.barba img,
+.quimica img{
+    width: 60px;
+    height: 60px;
+}
 
 
 
 
 
+.fakeIcon {
+ 
+    background: rgb(55, 98, 236);
+}
+
+.fakePicture {
+    background-color: pink;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+}
 
 
+
+
+
+.col-1 {
+    width: 90%;
+    background-color: tomato;
+
+}
+
+.col-2 {
+    width: 45%;
+    /* background-color: tomato; */
+
+}
+
+.col-3 {
+    width: 30%;
+    background-color: tomato;
+}

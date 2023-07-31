@@ -1,4 +1,3 @@
-
 @media screen and (max-width:900px) {
 
     .menu {
@@ -21,29 +20,27 @@
 
 
 @media screen and (max-width:850px) {
-     .banner img{
+    .banner img {
         right: 10%;
         width: 300px;
-     }
-    
     }
+
+}
 
 
 
 @media screen and (max-width:704px) {
 
-    .banner{
+    .banner {
         height: 300px;
         background-size: cover;
     }
 
-    .banner img{
+    .banner img {
         width: 150px;
         top: unset;
         bottom: 0;
         right: 5px;
-        /* padding: 16px; */
-
     }
 
 }
