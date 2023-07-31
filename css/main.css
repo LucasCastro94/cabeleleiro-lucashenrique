@@ -9,6 +9,10 @@ h1{
     font-size: 2.5rem;
 }
 
+footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -44,7 +48,7 @@ footer {
     background-color: rgba(204, 204, 206, 0.007);
     position: absolute;
     backdrop-filter: blur(10px);
-    top: 40px;
+    top: 0px;
     left: 0px;
     height: 0;
     width: 100%;
@@ -218,6 +222,10 @@ footer {
 .rede-sociais a img{
     margin-right: 20px;
     width: 60px;
+}
+
+.rede-sociais a:hover{
+ transform: scale(1.1)
 }
 
 .funcionamento{
