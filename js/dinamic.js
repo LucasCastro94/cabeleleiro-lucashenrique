@@ -1,37 +1,27 @@
 var imagens = [
-    "./images/mini11.jpg",
-    "./images/mini12.jpg",
-    "./images/mini3.jpg",
-    "./images/mini14.jpg",
-    "./images/mini15.jpg",
-    "./images/mini9.jpg",
-    "./images/mini7.jpg",
-    "./images/mini10.jpg",
-    "./images/mini6.jpg",
-    "./images/mini8.jpg",
-   
-  ];
+  "./images/modelos/modelo1.jpeg",
+   "./images/modelos/modelo2.jpeg",
+   "./images/modelos/modelo3.jpeg",
+   "./images/modelos/modelo4.jpeg",
+   "./images/modelos/modelo5.jpeg",
+   "./images/modelos/modelo6.jpeg",
+   "./images/modelos/modelo7.jpeg",
 
-  // Referência ao elemento do carrossel
-  var carrossel = document.getElementById("carrossel");
 
-  
-  for (var i = 0; i < imagens.length; i++) {
-    //cria uma div 
-    var divItem = document.createElement("div");
-    //coloca uma class na div chamada 'item'
-    divItem.classList.add("item");
-    
-    //cria uma tag img
-    var img = document.createElement("img");
-    //seta propriedadade src
-    img.src = imagens[i];
-    //seta propriedade alt
-    img.alt = "Imagem " + (i + 1);
-    
-    //seta a tag img criada dentro da div criada
-    divItem.appendChild(img);
+];
 
-    //seta a div com a tag img criada dentro da div com id carrosel
-    carrossel.appendChild(divItem);
-  }
+var carrossel = document.getElementById("carrossel");
+
+
+for (var i = 0; i < imagens.length; i++) {
+  var divItem = document.createElement("div");
+  divItem.classList.add("item");
+
+  var img = document.createElement("img");
+  img.src = imagens[i];
+  img.alt = "Imagem " + (i + 1);
+
+  divItem.appendChild(img);
+
+  carrossel.appendChild(divItem);
+}
