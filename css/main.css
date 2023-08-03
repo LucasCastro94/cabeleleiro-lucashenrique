@@ -4,12 +4,12 @@
     font-size: 1.1rem;
 }
 
-h1{
+h1 {
     font-family: cursive;
     font-size: 2.5rem;
 }
 
-footer h1{
+footer h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -112,7 +112,6 @@ footer {
     bottom: -10px;
 }
 
-
 .banner {
     position: relative;
     width: 100%;
@@ -147,7 +146,7 @@ footer {
     text-align: left;/
 }
 
-.historia p{
+.historia p {
     padding: 16px;
     text-align: justify;
 
@@ -163,14 +162,10 @@ footer {
 
 }
 
-
-
-
 .servicos .col-3 {
     margin: auto;
     background-color: white;
 }
-
 
 .corte,
 .barba,
@@ -179,64 +174,66 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    min-height: 200px;
 }
 
-.corte ul,
-.barba ul,
-.quimica ul {
+.corte p,
+.barba p,
+.quimica p {
     align-self: flex-start;
+    font-size: 0.9rem;
+    text-align: start;
 }
-
-
 
 .galeria {
     margin-top: 40px;
 }
 
-.galeria h1{
+.galeria h1 {
     text-align: center;
     font-size: 2rem
 }
 
-.galeria img{
+.galeria img {
     height: 650px;
 }
 
 .owl-carousel .owl-item img {
-margin: auto;
+    margin: auto;
 }
+
 .contato {
     display: flex;
 }
 
-.contato .col-2{
+.contato .col-2 {
     margin: 15px auto;
 }
 
 
 
-.rede-sociais{
+.rede-sociais {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
-.rede-sociais a img{
+.rede-sociais a img {
     margin-right: 20px;
     width: 60px;
 }
 
-.rede-sociais a:hover{
- transform: scale(1.1)
+.rede-sociais a:hover {
+    transform: scale(1.1)
 }
 
-.funcionamento{
+.funcionamento {
     margin-top: 30px;
     display: flex;
     align-items: center;
 }
 
-.funcionamento img{
+.funcionamento img {
     width: 30px;
     margin-right: 5px;
 }
@@ -249,7 +246,7 @@ margin: auto;
 
 .corte img,
 .barba img,
-.quimica img{
+.quimica img {
     width: 60px;
     height: 60px;
 }
@@ -260,17 +257,14 @@ margin: auto;
 
 .col-1 {
     width: 90%;
-    background-color: tomato;
 
 }
 
 .col-2 {
     width: 45%;
-    /* background-color: tomato; */
 
 }
 
 .col-3 {
     width: 30%;
-    background-color: tomato;
 }
