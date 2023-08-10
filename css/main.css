@@ -123,16 +123,33 @@ footer {
 
 .banner img {
     width: 350px;
-    opacity: 0.5;
     position: absolute;
     right: 20%;
     top: 22%;
 }
 
+#logoImg {
+    opacity: 0.01;
+    transition: opacity 3s, transform 1s;
+    transform: translateX(-1000px);
+}
+
+#logoImg.transition-img {
+    opacity: 0.5;
+    transform: translateX(0);
+}
+
+
 .historia {
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
+    transition: transform 1s;
+    transform: translateX(-150%);
+}
+
+.transition-img {
+    transform: translateX(0);
 }
 
 .historia h1 {
