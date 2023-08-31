@@ -148,6 +148,13 @@ footer {
     transform: translateX(-150%);
 }
 
+#localgif{
+    height: 450px;
+    width: 100%;
+    -webkit-filter: grayscale(50%); 
+    filter: grayscale(50%);
+}
+
 .transition-img {
     transform: translateX(0);
 }
