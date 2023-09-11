@@ -98,6 +98,16 @@
     .owl-carousel .owl-stage .owl-item img {
         width: 100%; 
       }
+      
+      .historia img{
+        display: none;
+      }
 
+      .historia video{
+        display: block;
+        width: 100% ;
+        height: 450px;
+        object-fit: fill;
+      }
 }
 

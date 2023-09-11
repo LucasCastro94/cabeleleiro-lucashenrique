@@ -26,6 +26,8 @@ footer {
     color: white;
 }
 
+
+
 /* Menu */
 .menu {
     padding: 25px;
@@ -148,12 +150,6 @@ footer {
     transform: translateX(-150%);
 }
 
-#localgif{
-    height: 450px;
-    width: 100%;
-    -webkit-filter: grayscale(50%); 
-    filter: grayscale(50%);
-}
 
 .transition-img {
     transform: translateX(0);
@@ -176,6 +172,17 @@ footer {
 
 }
 
+.historia img{
+    width:100%;
+
+}
+
+.historia video{
+    width: 100%;
+    display: none;
+
+}
+
 .servicos {
     display: flex;
     flex-wrap: wrap;
@@ -184,6 +191,10 @@ footer {
     background-color: rgb(243, 242, 242);
     min-height: 400px;
 
+}
+
+.servicos h5{
+    margin-bottom: 6px;
 }
 
 .servicos .col-3 {
@@ -206,7 +217,7 @@ footer {
 .quimica p {
     align-self: flex-start;
     font-size: 0.9rem;
-    text-align: start;
+    text-align: justify;
 }
 
 .galeria {
